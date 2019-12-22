@@ -71,7 +71,7 @@ public class WebViewPage extends AppCompatActivity {
         progressDialog.setMessage("Loading...");
 
         type = getIntent().getStringExtra("type");
-        
+
 //        Toast.makeText(getApplicationContext(), "type: "+type, Toast.LENGTH_LONG).show();
 
         if(type.equals(Constants.childHealth)){
